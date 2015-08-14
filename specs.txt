@@ -1,4 +1,0 @@
-Spec list for week 2 Epicodus Assessment
-
-1.) User inputs single letter word into both field 1 & field 2.
-e.

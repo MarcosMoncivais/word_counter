@@ -1,0 +1,26 @@
+Spec list for week 2 Epicodus Assessment
+
+1.) User inputs one word into both field 1 & field 2, output returns count of how many times word from field 1 appears in field 2.
+	i.e: Input in field 1:'hi'
+		 Input in field 2:'hi'
+		 Output: 1
+
+2.) User inputs one word into both field 1 & field 2 that are not identical, output returns '0'
+	i.e: Input in field 1: 'hi'
+		 Input in field 2: 'yo'
+		 Output: 0	
+
+3.) User inputs single word into field 1 & multiple words into field 2, output returns how many times the word from field 1 appears in field 2
+	i.e: Input in field 1: 'hi'
+		 Input in field 2: 'hi how are you doing'
+		 Output: 1
+
+4.) User inputs single word into field 1 & multiple words into field 2 but not the word from field 1, out returns '0'
+	i.e: Input in field 1: 'hi'
+		 Input in field 2: 'i like pizza'
+		 Output: 0
+
+5.) User inputs single word into field 1 & multiple words into field 2, output returns how many times the word from field 1 appears in field 2 only if word is complete
+	i.e: Input in field 1: 'fox'
+		 Input in field 2: 'foxy fox fox'
+		 Output: 2

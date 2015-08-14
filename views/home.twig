@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css'>
+    <title>Word Frequency Counter</title>
+  </head>
+  <body>
+    <div class='container'>
+      <h1>Word Frequency Counter</h1>
+      <h2>Enter a word to search for in field 1 and a sentence in field 2. I'll tell you how many times your word appears in the sentence.</h2>
+      <form action='/result'>
+        <div class='container'>
+          <h3><label for='keyword'>Word to search for:</label></h3>
+          <input id='keyword' name='keyword' class='form-control' type='text'>
+
+          <h3><label for='searchstring'>Sentence to search in:</label></h3>
+          <input id='searchstring' name='searchstring' class='form-control' type='text'>
+        </br>
+          <button type='submit' class='btn-success'>Click me</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
